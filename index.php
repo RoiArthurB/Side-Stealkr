@@ -3,8 +3,11 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta name="description" content="Stealkr" />
-	<title>Stealkr</title>
+	<title>Stealkr - RoiArthurB</title>
 	<link href="css/style.css" rel="stylesheet">
+
+	<link rel="apple-touch-icon" sizes="194x194" href="img/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="img/apple-touch-icon.png" sizes="194x194">
 </head>
 <body onload="search()">
 	<header>
