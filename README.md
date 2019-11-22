@@ -1,2 +1,76 @@
-# Side-Stealkr
-Flickr image getter
+# Side-Stealkr ![icon](img/apple-touch-icon.png)
+
+<!-- Flickr image getter -->
+The purpose of that website was to aim a website to simply download Flickr image. So I did it 🐻 
+
+![Screenshot of Stealkr website](img/Screenshot.png)
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+### Prerequisites
+
+All you need to have is a server (localhost, shared hosting, or beautiful VPS) with [PHP](https://www.php.net/downloads.php) (any version) running and [libcurl](https://curl.haxx.se/) (v.7.10.5 or later) on it.
+
+Except if you're running a very light VPS and you removed everything ! You should have it all so do not mind that part 🙈🙈🙈
+
+### Installing
+
+If you have all the prerequisites done, you've installed it all 👏👏👏
+
+## Deployment
+
+All this folder is ready to deploy, there is no installing procedure but if you need it...
+
+#### On localhost
+
+Open a terminal and start to clone the repo
+
+```
+git clone https://github.com/RoiArthurB/Side-Stealkr.git
+```
+
+And start a PHP local server from that folder
+
+```
+cd ./Side-Stealkr
+php -S localhost:8080
+```
+
+Now go to [http://localhost:8080](http://localhost:8080) and enjoy Stealkr 🐻
+
+#### On any web server
+
+Download the project (with Github Zip or by cloning it)
+
+```
+git clone https://github.com/RoiArthurB/Side-Stealkr.git
+```
+
+Now drag-n-drop the whole folder in your server (with FileZilla or whatever you like).
+
+You can freely to your website at the corresponding location and you can freely enjoy Stealkr 🐻 
+
+## Built With
+
+* [PHP](https://www.php.net/) - The best language ever created 😘
+* [cURL - libcurl](https://curl.haxx.se/) - command lines or scripts to transfer data
+* [❤️❤️❤️](https://www.youtube.com/watch?v=HEXWRTEbj1I) - A little bit of love
+
+## Contributing
+
+Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## Versioning
+
+I try to follow a version number in the footer, but it's just for fun 🐻
+
+## Authors
+
+* **Arthur Brugiere** - *Initial work* - [RoiArthurB](https://github.com/RoiArthurB)
+
+## License
+
+This project is licensed under the GPL3 License - see the [LICENSE.md](LICENSE.md) file for details
+
