@@ -1,6 +1,10 @@
 # Side-Stealkr ![icon](img/apple-touch-icon.png)
 
-<!-- Flickr image getter -->
+[![Language](https://img.shields.io/badge/language-PHP-brightgreen.svg)](https://www.php.net/)
+![GitHub](https://img.shields.io/github/license/RoiArthurB/Side-Stealkr.svg) 
+
+![Maintenance](https://img.shields.io/maintenance/yes/2019.svg)
+
 The purpose of that website was to aim a website to simply download Flickr image. So I did it 🐻 
 
 ![Screenshot of Stealkr website](img/Screenshot.png)
