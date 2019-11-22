@@ -1,4 +1,4 @@
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+html, body, div, h1, h3, p, a, img, form, header, section {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -9,7 +9,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+header, section {
 	display: block;
 }
 
@@ -36,14 +36,6 @@ header {
 	color: #ffab00;
 }
 
-header > div.logo {
-	background-image: url(https://rss-bridge.arthurbrugiere.fr/static/logo_600px.png);
-	width: 599px;
-	height: 177px;
-	margin: auto;
-}
-
-select,
 input[type="text"] {
 	background-color: white;
 	color: #404552;
@@ -53,7 +45,6 @@ input[type="text"] {
 	padding: 5px 10px;
 }
 
-select:focus,
 input[type="text"]:focus {
 	outline: none;
 	border-color: #888;
@@ -128,11 +119,6 @@ button {
 	width: calc(20% - 4px);
 }
 
-button.small {
-	width: auto;
-	line-height: 1.2em;
-}
-
 button:hover {
 	background: #ffab00;
 }
@@ -145,6 +131,7 @@ form {
 	font-size: 70% !important;
 	text-align: right !important;
 }
+
 .maintainer > a {
 	color: #888888 !important;
 }
@@ -152,12 +139,6 @@ form {
 @media screen and (max-width: 767px) {
 	body {
 		font-size: 75%;
-	}
-
-	header > div.logo {
-		background-image: url(https://rss-bridge.arthurbrugiere.fr/static/logo_300px.png);
-		width: 300px;
-		height: 89px;
 	}
 
 	.searchbar {
