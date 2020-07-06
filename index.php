@@ -36,7 +36,7 @@
 	);
 
 	// Get max size img
-	$url = $_GET['searchfield']."/sizes/k/";
+	$url = explode("in", $_GET['searchfield'])[0]."/sizes/k/";
 
 	$handle = curl_init($url);
 	curl_setopt_array($handle, $curlOptions);
@@ -62,7 +62,7 @@
  	<?php } ?>
 
 	<section class="footer">
-		<p class="version">v 1.0</p>
+		<p class="version">v 2.0</p>
 		<a href="https://github.com/RoiArthurB/Side-Stealkr">Stealkr ~ GPL3</a><br>
 	</section>
 </body>
