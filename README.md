@@ -17,7 +17,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 All you need to have is a server (localhost, shared hosting, or beautiful VPS) with [PHP](https://www.php.net/downloads.php) (any version) running and [libcurl](https://curl.haxx.se/) ([v.7.10.5](https://www.php.net/manual/en/curl.requirements.php) or later) on it.
 
-Except if you're running a very light VPS and you removed everything, you should have it all so do not mind that part 🙈🙈🙈
+Except if you're running a very light VPS and you removed everything, you should have it all so do not mind about that part 🙈🙈🙈
 
 ### Installing
 
@@ -54,7 +54,7 @@ git clone https://github.com/RoiArthurB/Side-Stealkr.git
 
 Now drag-n-drop the whole folder in your server (with FileZilla or whatever you like).
 
-You can freely to your website at the corresponding location and you can freely enjoy Stealkr 🐻 
+You can simply go on your website at the corresponding location and just enjoy Stealkr 🐻 
 
 ## Built With
 
